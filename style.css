@@ -1,0 +1,413 @@
+@media screen and (min-width:768px) {
+
+
+    body {
+        max-width: 1600px;
+        min-width: 960px;
+        margin: 0 auto 0 auto;
+    }
+
+    .container {
+        width: 100%;
+        position: relative;
+        display: inline-block;
+    }
+
+    .image {
+        background-image: url(images/グラデーション背景.jpg);
+        width: 100%;
+        height: 600px;
+    }
+    .text {
+        text-align: center;
+        border-radius: 5px;
+    }
+    #line {
+        font-size: 60px;
+        white-space: nowrap;
+        font-weight: bold;
+    }
+    #pmt {
+        font-size: 48px;
+        color: white;
+        font-weight: bold;
+        text-shadow: 4px 4px 4px rgba(0,0,0, 25%);
+    }
+    #marketing {
+        text-align: center;
+        font-size: 40px;
+    }
+    #marketing br {
+        display: none;
+    }
+
+    .marketing {
+        padding: 5% 5%;
+    }
+    .thinking {
+        display: flex;
+        width: 200px;
+        height: auto;
+        margin-top: 50px;
+    }
+    .worries {
+        display: flex;
+        justify-content: center;     
+    }
+    .problem {
+        text-align: center;
+        font-size: 24px;
+        margin: 10px 60px 60px 0px;
+    }
+    .bold-text {
+        
+        font-weight: bold;
+        font-size: 24px;
+    }
+    .company {
+        text-align: center;
+    }
+    .company-summary {
+        display: flex;
+        text-align: center;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+    li {
+        list-style-type: none;
+    }
+    .three-points {
+        margin: auto 0;
+        white-space: nowrap;
+        font-size:24px;
+        font-weight:bold;
+        line-height: 200%;
+        text-shadow: 2px 2px 2px rgba(0,0,0, 25%);
+        list-style: none;
+        text-align: left
+    }
+    .line {
+        width: 150px;
+        height: 100%;
+        margin-left: 25%;
+        margin-top: 2%;
+    }
+    .thinking-man {
+        max-width: 180px;
+        height: 100%;
+        margin-right: 25%;
+        margin-top: 30px;
+    }
+
+    .full-screen-image {
+        background-image: url(images/top画像.png);
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+    }
+    .upper-text .lower-text{
+        line-height: 25px;
+        font-size: 16px;
+    }
+    .lower-text {
+        padding-bottom: 5%;
+    }
+
+    article h2 {
+        font-size: 32px;
+        text-decoration: underline;
+        text-align: center;
+        padding-top: 20px;
+        margin-bottom: 0;
+    }
+    .example {
+        display: flex;
+        text-align: left;
+        font-size: 12px;
+        white-space: wrap;
+    }
+
+    .result-image {
+        width: 90%;
+        justify-content: space-between;
+        padding: 5%;
+    }
+    .result-texts {
+        text-align: center;
+ 
+    }
+    .date {
+        text-align: center;
+        padding-bottom: 5%;
+    }
+
+    article {
+        background-color: rgba(255, 255, 255, 0.8);
+        width: 80%;
+        height: 100%;
+        margin: 20px auto;
+    }
+    .company::after {
+        top:5%;
+    }
+
+    .merit-example {
+        counter-reset: titlenum;
+        font-size: 18px;
+        text-align: left;
+        margin: 0 auto;
+        padding: 5%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        width: fit-content;
+    }
+    .merit-example p {
+    }
+
+    .merit-example p::before {
+        counter-increment: titlenum;
+        content: "メリット" counter(titlenum);
+        margin-right: 20px;
+	    padding: 5px 10px;
+	    display: inline-block;
+	    border-radius: 10px;
+	    color: #fff;
+	    font-family: roboto;
+        font-size: 18px;
+	    background: #fa754b;
+    }
+    .other-merit {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .other-merit01 {
+        text-align: center;
+        font-size: 24px;
+        font-weight: bold;
+    }
+    .other-merit02 {
+        text-align: left;
+        font-size: 12px; 
+        margin-left: 9%;
+        padding-left: 10%;
+    }
+    .other-merit03 {
+        text-align: center;
+        font-size: 12px;
+        padding-bottom: 5%;
+        
+    }
+    .line-logo {
+        max-width: 80px;
+        height: 100%;
+    }
+    .contact {
+        text-align: center;
+        color: #fff;
+        background-color: none;
+        margin-bottom: 5%;
+        margin-top: 5%;
+    }
+    .contact h2 {
+        font-size: 36px;
+        margin-bottom: 5%;
+    }
+    .go-to-contact {
+        color: inherit;
+        text-decoration: none;
+        font-size: 48px;
+        background-image: url(images/グラデーション背景.jpg);
+        background-size: 100%;
+        padding: 2% 20%;
+        letter-spacing: 5px;
+        text-shadow: 4px 4px 4px rgba(0,0,0, 25%);
+    }
+    footer {
+        padding:10px 10px;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+    body {
+      min-width: 375px;
+      margin: 0 auto;
+      
+    }
+    .marketing, article {
+        background-color: rgba(255, 255, 255, 0.8);
+        width: 90%;
+        margin: 0 auto;
+    }
+      
+    .sp-background  {
+        background-image: url(images/top画像.png);
+        
+    }
+    .thinking {
+        mix-blend-mode: multiply;
+        height: auto;
+    }
+    .image {
+        background-image: url(images/SP用グラデーション背景.png);
+        height: 100%;
+        padding: 15px;
+    }
+    section h2 {
+        font-size: 16px;
+        text-decoration: underline;
+        text-align: center;
+        padding-top: 15px;
+        margin-bottom: 0;
+    }
+    .text {
+        font-size: 10px;
+        text-align: center;
+    }
+    #line {
+        font-size: 20px;
+    }
+    #marketing {
+        font-size:20px;
+        text-align: center;
+        text-decoration: none;
+    }
+    .problem {
+        font-size: 10px;
+        padding: 5%;
+        
+    }
+    #pmt {
+        color: white;
+        font-weight: bold;
+        text-shadow: 4px 4px 4px rgba(0,0,0, 25%);
+    }
+    .line {
+        display: none;
+    }
+    .line-logo {
+        width: 30px;
+        height: auto;
+        padding-bottom: 5%;
+       
+    }
+    .three-points li{
+        font-size: 20px;
+        font-weight: bold;
+        list-style: none;
+        padding-left: 5%;
+        margin: 5%;
+    }
+    .lower-text {
+        font-size: 14px;
+        text-align: center;
+        padding-bottom: 5%;
+    }
+    .thinking-man {
+        display: block;
+        width: 100%;
+        margin: auto;
+    }
+
+    .achievment {
+        display: none;
+    }
+    
+    .merit-example {
+        font-size: 10px;
+        text-align: center;
+        
+        padding: 5%;
+    }
+    .other-merit {
+        text-align: center;
+    }
+    .other-merit02 {
+        text-align: left;
+        font-size: 8px;
+        margin: 0;
+        padding-left: 5%;
+    }
+    .other-merit03 {
+        text-align: left;
+        font-size: 8px;
+        padding-left: 6%;
+        padding-right: 3%;
+        padding-bottom: 5%;
+    }
+    .bold-text {
+        font-weight: bold;
+    }
+    .upper-text {
+        font-size: 12px;
+        padding: 5%;
+    }
+    .date {
+        display: none;
+    }
+    .result01, .result03 {
+        font-size: 14px;
+        text-align: center;
+        padding: 5%;
+    }
+    .result02 {
+        font-size: 14px;
+        text-align: left;
+        padding: 5%;
+    }
+    .contact h2 {
+        text-decoration: none;
+        color: #fff;
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+    .contact {
+        text-align: center;
+    }
+    
+    .go-to-contact {
+        text-decoration: none;
+        background-image: url(images/SP用無料相談へ.png);
+        color: #fff;
+        text-shadow: 1px 1px 0 #000;
+        font-size: 20px;
+        text-align: center;
+        padding: 2% 15%;
+        margin-bottom: 20px;
+    }
+    footer {
+        text-align: center;
+        background-image: none;
+    }
+    .footer-image {
+        margin-top: 10px;
+    }
+    footer p {
+        font-size: 10px;
+        margin-bottom: 20px;
+    }
+    footer img {
+        padding-top: 20px;
+        width: 20px
+    }
+}
+
+.other-merit01 > .highlight {
+    position: relative;
+}
+.other-merit01 > .highlight::after {
+    content: '';
+    width: 100%;
+    height: 4px;
+    left: 0;
+    bottom: 1px;
+    position: absolute;
+    background-color: yellowgreen;
+    opacity: 0.5;
+}
